@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117230-23667-11tizuz/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117230-23667-11tizuz/package.tgz",
+        "spec": "/tmp/d-117230-23667-11tizuz/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117230-23667-1rw2u5k"
+    ]
+  ],
+  "_from": "../d-117230-23667-11tizuz/package.tgz",
+  "_id": "python-jedi@0.3.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/python-jedi",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117230-23667-11tizuz/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117230-23667-11tizuz/package.tgz",
+    "spec": "/tmp/d-117230-23667-11tizuz/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117230-23667-11tizuz/package.tgz",
+  "_shasum": "7bbcd565f1b6db193b9a82169dd4a732933dc99f",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117230-23667-11tizuz/package.tgz",
+  "_where": "/tmp/apm-install-dir-117230-23667-1rw2u5k",
+  "bugs": {
+    "url": "https://github.com/saravanan-k90/python-jedi/issues"
+  },
+  "dependencies": {},
+  "description": "Python Jedi based autocompletion plugin ",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0",
+    "node": "*"
+  },
+  "homepage": "https://github.com/saravanan-k90/python-jedi#readme",
+  "license": "MIT",
+  "main": "./lib/jedi-python3-autocomplete",
+  "name": "python-jedi",
+  "optionalDependencies": {},
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "1.1.0": "getProvider"
+      }
+    }
+  },
+  "readme": "# python-jedi package\n\n\tPython Jedi based autocompletion plugin.\n\n## Features\n  - Autocomplete.\n  - Goto Definition.\n\n## Installation\n  -\tEither use Atoms package manager or `apm install python-jedi`. Install autocomplete-plus before installing this package.\n\n### Usage\n  - python-jedi uses python3 interpreter in your path by default.(i.e., by default Pathtopython field holds value python3).\n  -\tEnter the path to python executable in the settings(Pathtopython field) (eg:/home/user/py3pyenv/bin/python3 or /home/user/py2virtualenv/bin/python).\n\n#### To Use Goto Definition\n  - Use the keyboard shortcut `ctrl-alt-j`.\n\n### Note\n  - You may get spawn error if python executable is not in your path. To avoid frequent spawn errors -> enter the path to python executable in Path2python field (eg: /usr/bin/python3 or /usr/bin/python2 or /usr/bin/python).\n  - I do not know whether this extension works in windows os environment. But works in linux with python installed. Still if it is not working., please then create an issue and help in solving the issue.\n\n### Links\n  - This package => forked from [autocomplete-plus-jedi](https://github.com/fallenhitokiri/autocomplete-plus-jedi)\n  - Jedi library api reference [Jedi](http://jedi.readthedocs.io/en/latest/index.html).\n  - Regular expressions testing and debugging using [regex101](https://regex101.com).\n  ",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saravanan-k90/python-jedi.git"
+  },
+  "version": "0.3.8"
+}

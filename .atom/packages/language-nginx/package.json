@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-11757-18604-15asvgu/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-11757-18604-15asvgu/package.tgz",
+        "spec": "/tmp/d-11757-18604-15asvgu/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-11757-18604-kz7cjq"
+    ]
+  ],
+  "_from": "../d-11757-18604-15asvgu/package.tgz",
+  "_id": "language-nginx@0.8.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/language-nginx",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-11757-18604-15asvgu/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-11757-18604-15asvgu/package.tgz",
+    "spec": "/tmp/d-11757-18604-15asvgu/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11757-18604-15asvgu/package.tgz",
+  "_shasum": "f724bbfd5db38cb583b9240ef7579b7ee54db70d",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-11757-18604-15asvgu/package.tgz",
+  "_where": "/tmp/apm-install-dir-11757-18604-kz7cjq",
+  "bugs": {
+    "url": "https://github.com/hnagato/atom-language-nginx/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax and snippet support for Nginx configuration files",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/hnagato/atom-language-nginx#readme",
+  "license": "MIT",
+  "name": "language-nginx",
+  "optionalDependencies": {},
+  "readme": "# Nginx syntax support in Atom\n\nAdds syntax highlighting and snippet support to Nginx configuration files.\nPorted from [textmate/nginx](https://github.com/johnmuhl/nginx-tmbundle) for Atom.\n\n## How to use\nGive Nginx configuration files the extension `.conf` or `.nginx`\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnagato/atom-language-nginx.git"
+  },
+  "version": "0.8.0"
+}
